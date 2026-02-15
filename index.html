@@ -38,6 +38,109 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Google Translate Widget Styling -->
+    <style>
+    /* Completely hide ALL Google Translate UI elements */
+    #google_translate_element,
+    .goog-te-banner-frame,
+    iframe.goog-te-banner-frame,
+    #goog-gt-tt,
+    .goog-te-balloon-frame,
+    .goog-te-menu-frame,
+    .goog-te-spinner-pos,
+    .goog-te-ftab-frame,
+    #gt-nvframe,
+    .VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+    .VIpgJd-ZVi9od-aZ2wEe-wOHMyf-hSRGPd,
+    body > .skiptranslate {
+        display: none !important;
+        visibility: hidden !important;
+        height: 0 !important;
+        width: 0 !important;
+        overflow: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        position: fixed !important;
+        top: -9999px !important;
+        left: -9999px !important;
+    }
+    /* Hide the floating Google Translate circle/icon */
+    [id^="goog-gt-"], [class*="VIpgJd"] {
+        display: none !important;
+    }
+    /* Prevent Google from pushing body down */
+    body { top: 0 !important; }
+    html.translated-ltr body, html.translated-rtl body { top: 0 !important; }
+
+    /* Custom Language Toggle Button */
+    .lang-toggle-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
+        background: #e8e8e8;
+        border: 2px solid #ccc;
+        border-radius: 25px;
+        padding: 3px 4px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        line-height: 1;
+    }
+    .lang-toggle-btn:hover {
+        border-color: #aaa;
+    }
+    .lang-opt {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        color: #888;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        background: transparent;
+    }
+    .lang-opt:hover {
+        color: #555;
+    }
+    .lang-opt.active[data-lang="en"] {
+        background: #1a3a5c;
+        color: #fff;
+        box-shadow: 0 2px 10px rgba(26, 58, 92, 0.4);
+    }
+    .lang-opt.active[data-lang="de"] {
+        background: #d4342a;
+        color: #fff;
+        box-shadow: 0 2px 10px rgba(212, 52, 42, 0.4);
+    }
+    .lang-opt img {
+        width: 20px;
+        height: 14px;
+        border-radius: 2px;
+        object-fit: cover;
+        border: 1px solid rgba(0,0,0,0.1);
+    }
+    .lang-switcher-nav {
+        display: flex;
+        align-items: center;
+        padding: 0 5px !important;
+    }
+    @media (max-width: 767px) {
+        .lang-switcher-nav {
+            text-align: center;
+            padding: 8px 15px !important;
+        }
+        .lang-toggle-btn {
+            margin: 0 auto;
+        }
+    }
+    </style>
+
   </head>
   <body>
   	
@@ -75,6 +178,20 @@
 			        <li><a href="#mu-testimonials">TESTIMONIALS</a></li>
 			      
 		            <li><a href="#mu-contact">CONTACT</a></li>
+
+					<!-- Language Toggle EN / DE -->
+					<li class="lang-switcher-nav">
+						<div class="lang-toggle-btn" id="langToggle">
+							<span class="lang-opt active" data-lang="en" onclick="switchLang('en')">
+								<img src="https://flagcdn.com/w40/gb.png" alt="EN"> EN
+							</span>
+							<span class="lang-opt" data-lang="de" onclick="switchLang('de')">
+								<img src="https://flagcdn.com/w40/de.png" alt="DE"> DE
+							</span>
+						</div>
+						<!-- Hidden Google Translate element -->
+						<div id="google_translate_element" style="display:none;"></div>
+					</li>
 		      	</ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -217,7 +334,7 @@
 											<p style="font-size: 15px; line-height: 1.85; margin-bottom: 16px; color: #666;">
 												Hands-on diverse skill set spanning embedded systems (C, C++/Qt, Embedded Linux), RTOS (FreeRTOS, OSEK), hardware design (Altium, Zuken), and functional test systems (NI PXI, LabVIEW, TestStand, MATLAB, C#/WPF).
 											</p>
-											<p style="font-size: 15px; line-height: 1.85; margin-bottom: 20px; color: #666;">
+<p style="font-size: 15px; line-height: 1.85; margin-bottom: 20px; color: #666;">
 												Dedicated to delivering robust, production-ready solutions through Agile methodologies, CI/CD integration, and cross-functional team leadership — from R&amp;D concept to mass production.
 											</p>
 
@@ -2645,6 +2762,84 @@ He is a dedicated and highly reliable engineer, always eager to find efficient a
 	
     <!-- Custom js -->
 	<script type="text/javascript" src="assets/js/custom.js"></script>
+
+	<!-- Google Translate (hidden) + Custom Language Switcher -->
+	<script type="text/javascript">
+	// Initialize Google Translate (hidden widget)
+	function googleTranslateElementInit() {
+		new google.translate.TranslateElement({
+			pageLanguage: 'en',
+			includedLanguages: 'en,de',
+			autoDisplay: false
+		}, 'google_translate_element');
+	}
+
+	// Switch language via our custom toggle
+	function switchLang(lang) {
+		// Update toggle button UI
+		document.querySelectorAll('.lang-opt').forEach(function(el) {
+			el.classList.remove('active');
+			if (el.getAttribute('data-lang') === lang) {
+				el.classList.add('active');
+			}
+		});
+
+		if (lang === 'en') {
+			// Restore to original English
+			// Google Translate uses a cookie to store language
+			document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+			document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.' + location.hostname;
+			// Try using the hidden select if available
+			var combo = document.querySelector('#google_translate_element select.goog-te-combo');
+			if (combo) {
+				combo.value = 'en';
+				combo.dispatchEvent(new Event('change'));
+			}
+			// Fallback: reload to clear translation
+			setTimeout(function() {
+				if (document.documentElement.classList.contains('translated-ltr') || 
+				    document.documentElement.classList.contains('translated-rtl')) {
+					location.reload();
+				}
+			}, 300);
+		} else {
+			// Translate to German
+			var combo = document.querySelector('#google_translate_element select.goog-te-combo');
+			if (combo) {
+				combo.value = 'de';
+				combo.dispatchEvent(new Event('change'));
+			} else {
+				// If widget not ready yet, set cookie and reload
+				document.cookie = 'googtrans=/en/de; path=/';
+				document.cookie = 'googtrans=/en/de; path=/; domain=.' + location.hostname;
+				location.reload();
+			}
+		}
+
+		// Fix body position after translation
+		setTimeout(function() { document.body.style.top = '0px'; }, 500);
+		setTimeout(function() { document.body.style.top = '0px'; }, 1500);
+	}
+
+	// Continuously fix the body position offset
+	setInterval(function() {
+		if (document.body.style.top !== '0px') {
+			document.body.style.top = '0px';
+		}
+	}, 2000);
+
+	// On page load, check if already translated and update toggle UI
+	window.addEventListener('load', function() {
+		var cookie = document.cookie;
+		if (cookie.indexOf('googtrans=/en/de') !== -1) {
+			document.querySelectorAll('.lang-opt').forEach(function(el) {
+				el.classList.remove('active');
+				if (el.getAttribute('data-lang') === 'de') el.classList.add('active');
+			});
+		}
+	});
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 	<!-- Fix: Ensure EXPERIENCE nav link scrolls to correct section -->
 	<script>
