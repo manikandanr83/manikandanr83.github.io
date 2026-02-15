@@ -1,0 +1,640 @@
+-------------
+Testimonials / recomendations
+--------------
+Jörg Koers
+Jörg Koers
+Jörg Koers
+· 3rdThird degree connection
+Building a sustainable energy infrastructure - with strong teams and a clear vision.Building a sustainable energy infrastructure - with strong teams and a clear vision.
+October 11, 2025, Jörg managed Manikandan directlyOctober 11, 2025, Jörg managed Manikandan directly
+I had the pleasure of working with Manikandan during our common time in the system calibration team at Valeo, where he made a significant contribution to our tool development and data management activities. Manikandan has a strong background in high-performance computing (HPC), MATLAB, Python and further development environments which he applied effectively to streamline our calibration, measurement automation and data analysis processes. 
+ 
+He is a dedicated and highly reliable engineer, always eager to find efficient and elegant solutions to complex problems. His structured way of working and his collaborative attitude made him a great team member to work with. I can highly recommend Manikandan for any position that requires strong SW development skills, analytical thinking, and a effective teamwork.
+I had the pleasure of working with Manikandan during our common time in the system calibration team at Valeo, where he made a significant contribution to our tool development and data management activities. Manikandan has a strong background in high-performance computing (HPC), MATLAB, Python and further development environments which he applied effectively to streamline our calibration, measurement automation and data analysis processes. He is a dedicated and highly reliable engineer, always eager to find efficient and elegant solutions to complex problems. His structured way of working and his collaborative attitude made him a great team member to work with. I can highly recommend Manikandan for any position that requires strong SW development skills, analytical thinking, and a effective teamwork.
+Markus Reymann
+Markus Reymann
+Markus Reymann
+· 3rdThird degree connection
+Teamlead System Synthesis Electromobility / SchaefflerTeamlead System Synthesis Electromobility / Schaeffler
+October 24, 2022, Markus managed Manikandan directlyOctober 24, 2022, Markus managed Manikandan directly
+Manikandan is a very focused and dedicated engineer who developed concise and clear tools, which helped users maintain the overview over large amounts of engineering data. His experience in developing software makes him a valued contact person to discuss the matters of software architecture. Whenever I needed any information regaring databases and the handling of data - he was the one, whom I asked.
+His ability and openness to learn any new topic very fast makes him a flexible team member.
+It was a great pleasure for me to work with Manikandan.
+Manikandan is a very focused and dedicated engineer who developed concise and clear tools, which helped users maintain the overview over large amounts of engineering data. His experience in developing software makes him a valued contact person to discuss the matters of software architecture. Whenever I needed any information regaring databases and the handling of data - he was the one, whom I asked. His ability and openness to learn any new topic very fast makes him a flexible team member. It was a great pleasure for me to work with Manikandan.
+Bharat Patel
+Bharat Patel
+Bharat Patel
+· 3rdThird degree connection
+An accomplished executive leader with extensive experience in the Automotive, Mobility, IT, Connected Car, IoT and Telematics industries. With a proven track record of success in creating high-performing teams globally.An accomplished executive leader with extensive experience in the Automotive, Mobility, IT, Connected Car, IoT and Telematics industries. With a proven track record of success in creating high-performing teams globally.
+March 17, 2021, Bharat managed Manikandan directlyMarch 17, 2021, Bharat managed Manikandan directly
+It was a pleasure to work with Manikandan. He was diligent, hardworking and worked well within our development team. He is self motivated to learn new methods and then to apply into his code. 
+It was a pleasure to work with Manikandan. He was diligent, hardworking and worked well within our development team. He is self motivated to learn new methods and then to apply into his code. 
+Harald Singer
+Harald Singer
+Harald Singer
+· 3rdThird degree connection
+Quality Operations, BU Mobility at Datwyler GroupQuality Operations, BU Mobility at Datwyler Group
+April 2, 2015, Harald was senior to Manikandan but didn't manage Manikandan directlyApril 2, 2015, Harald was senior to Manikandan but didn't manage Manikandan directly
+Manikandan was a key member at IKA for the PCBA test program and was establishing PCBA Test kit projects in India. He was involved in building up the new test system as well as programming. His valuable input with software and hardware skill was appreciated. He worked on this project with full independence & ownership. Manikandan is a dedicated and hardworking Engineer, with strong technical skills and capabilities. In addition I like to say personal thanks for supporting and taking care of my son during his stay in India. 
+Manikandan was a key member at IKA for the PCBA test program and was establishing PCBA Test kit projects in India. He was involved in building up the new test system as well as programming. His valuable input with software and hardware skill was appreciated. He worked on this project with full independence & ownership. Manikandan is a dedicated and hardworking Engineer, with strong technical skills and capabilities. In addition I like to say personal thanks for supporting and taking care of my son during his stay in India. 
+Ramkumar D
+Ramkumar D
+Ramkumar D
+· 3rdThird degree connection
+Global Sourcing Leader, Segment Leader Steel Commodity- INDIA, ASEAN at Valeo India Pvt LimitedGlobal Sourcing Leader, Segment Leader Steel Commodity- INDIA, ASEAN at Valeo India Pvt Limited
+March 18, 2015, Ramkumar managed Manikandan directlyMarch 18, 2015, Ramkumar managed Manikandan directly
+Manikandan is a dedicated and hard working Engineer, with strong technical skills and capabilities. 
+He was responsible for establishing PCBA Test kit projects in India and he worked on this project with full independence & ownership. 
+He had Worked under the guidance of IKA German specialist engineers and was also appreciated for his good job. 
+He was a key member within IKA Group- PCBA test kit program. 
+A very valuable asset with both software and hardware skill.
+-------------
+PROJECTS 
+------------
+
+Projects @ Valeo eAutomotive
+
+1. Name System Architecture Elements Comparison Tool
+Software Python, Polarion Rest API, Gemini API
+Tools Used Google Cloud Project, Gradio, PyCharm IDE, Vertex AI Studio
+Description Developed and maintained two key tools as part of the AI4ALL system pipeline, focused on
+improving system architecture validation and automating test case creation. These tools enable
+early detection of architectural inconsistencies and significantly reduce manual effort in system
+integration and application testing through automation.
+
+Key
+Contributions
+
+▪ Work closely with Site IS team and product managers.
+▪ Requirement Analysis, Design and Implementation of software.
+▪ Deployment and Maintenance of the Software.
+
+2. Name Automated Software Integration & Calibration Data Delivery Pipeline
+Software C#, VBA, Python
+Tools Used AVL Creta, Visual Studio
+Description Designed and developed an automated pipeline for software integration and delivery of calibration
+data sets, enabling efficient handling of A2L files and consistent management of parameter versions.
+The solution streamlines calibration data provisioning, reduces manual errors, and ensures reliable
+delivery across integration and system testing environments.
+
+Key
+Contributions
+
+▪ Requirement Analysis, Design, and Implementation of automated workflows.
+▪ Work with Integration and Application teams for validation and defect resolution.
+
+3. Name System Integration & Application Tool Chain
+Software MATLAB Simulink, MATLAB App Designer, CANoe, CAPL Script, LabVIEW, NI Teststand, Python
+Hardware MORPHEE Automation System (FEV), Power Analyser, Dynamometer, HPC-Cluster
+Tools Used GIT, Jenkins. Google Cloud Project
+Protocols CAN, SPI, I2C
+Description An automated tool chain for system integration, application testing, and End-of-Line (EOL)
+parameterization of High Voltage (HV) systems in Electric Vehicles. The tool chain integrates a collection of
+individual tools into a unified platform, enabling direct usage for test automation, efficiency map generation,
+and large-scale vehicle and bench data processing using high-performance computing (HPC) clusters. The
+project streamlined tool accessibility, reduced manual intervention, and improved scalability and efficiency
+for stakeholders.
+
+Key
+Contributions
+
+▪ Gathered requirements and redesigned legacy tools into a unified, seamlessly integrated platform.
+▪ Led toolchain integration, automated builds and unit testing, and delivered the platform to
+stakeholders.
+
+
+
+Projects @ Continental Automotive
+
+1. Name Digital Tachograph
+Software Embedded C, Python, LabVIEW, TestStand
+Hardware Cypress FR 81 Family
+Tools Used GIT, Jenkins, JIRA,
+Protocols CAN, SPI, I2C, NFC
+Description A safety-critical automotive product for recording and safely storing driving and rest periods
+in commercial vehicles. Ensuring legal compliance and real-time data integrity for authorities
+and fleet management.
+
+Key
+Contributions
+
+▪ Actively participated in SAFe (Scaled Agile Framework) activities, including PI Planning,
+backlog refinement, sprint planning, reviews, and retrospectives.
+▪ Collaborate with cross-functional teams using GIT, Jenkins, and JIRA to manage development
+workflows, CI/CD pipelines, and issue tracking.
+
+2. Name Remote Vehicle Diagnostics –OBDII
+Software Embedded C++
+Hardware Renesas 78K10, PAN1026A Bluetooth module, SIM7600
+Tools Used IAR Workbench, Jira, Jenkins
+Protocols CAN, UDS, KW2000, HTTP
+Description The Remote Vehicle Diagnostics Solution monitors the condition of the vehicle and provides real-time
+information on vehicle parameters to evaluate its performance against benchmarks through OBD II.
+The OBD-II adapter sends the vehicle parameters to the mobile app via Bluetooth and can also send to
+the LTE network depending on the configuration.
+
+Key
+Contributions
+
+▪ Participate as part of a global Agile development team, contributing to sprint planning,
+estimations, reviews, and continuous improvement.
+▪ Collaborate across hardware, firmware, and application teams using JIRA for issue tracking
+and Jenkins for CI automation.
+
+3. Name Manufacturer Data Import – Plugin Development
+Software C# (WPF, MVVM)
+Hardware PCAN -USB
+Tools Used Visual studio 2017, MS Access, SQL, JSON, SVN, JIRA, Entity Framework
+Protocols CAN, KWP2000, UDS
+Description Conversion of proprietary diagnostic data from OEMs to a custom format compatible with Continental
+Multi-Brand Diagnostic Platform. Ensuring seamless integration by mapping diagnostic services, error
+codes and parameter definitions to standardized internal structures
+
+Key
+Contributions
+
+▪ Work with International Agile software development team.
+▪ Requirement Analysis, Design, and Implementation of automated workflows.
+▪ Verification and validation of processed diagnostic data using OEM specific diagnostic tools.
+
+
+
+Projects @ IKA Works
+
+1. Name IKA PCBA INSPECTOR
+Software LabVIEW 2010, Altium Designer
+Hardware cDAQ 9178
+Description The IKA PCBA INSPECTOR is an in-house developed automated functional testing system designed to
+validate Printed Circuit Board Assemblies (PCBAs) used across IKA’s laboratory, analytical, and
+process technology products. The system enables reliable, repeatable, and safe functional testing in
+production environments.
+The test setup consists of a universal test fixture with interchangeable needle adapters that
+contact PCBA test points, along with a hardware interface box used to connect external
+components such as heaters, motors, and sensors to simulate real operating conditions.
+
+Key
+Contributions
+
+▪ Analyse the test log files uploaded through FTP from Various Subsidiaries and Supplier
+locations were the ATE is installed.
+▪ Troubleshoot defective PCBA’s and report failures to R&D.
+
+2. Name USB Firmware Update Tool for IKA Devices
+Software C#
+Description This tool allowsusers/customers to easily update the firmware of IKA laboratory equipment via a USB
+connection using Y Modem protocol. It ensures reliable communication with IKA devices, manages
+firmware versioning, and streamlines the update process to enhance device performance and stability.
+
+Responsibilities ▪ Work closely with Application and Firmware Engineers.
+▪ Requirement Analysis, Design and Implementation of software.
+
+2. Name Torque Testing Fixture for Overhead Stirrers
+Description The Test fixture has been built with a hysteresis brake and a torque sensor with USB interface. The
+brake will be applied to the rotating shaft of the overhead stirrer so that a torque will be generated.
+Torque sensor connected with the shaft will measure the torque generated.
+
+Software LabVIEW 2010, Altium Designer
+Hardware NI USB 6009, DR3000(USB Torque Sensor), Hysteresis Brake
+Description The Test fixture has been built with a hysteresis brake and a torque sensor with USB interface. The
+brake will be applied to the rotating shaft of the overhead stirrer so that a torque will be generated.
+Torque sensor connected with the shaft will measure the torque generated.
+
+Key
+Contributions
+
+▪ Work closely with mechanical team in design and development of the fixture.
+▪ Selection and procurement of sensors and required hardware.
+▪ Requirement Analysis, Design and Implementation of software.
+▪ Installation and maintenance of the fixture in Production floor.
+
+3. Name Rotary Evaporator Gas Spring Testing Fixture
+Software LabVIEW
+Hardware NI USB 6009, Custom Made PCB with Stepper Motor
+Description This project involved the design and development of a test fixture and automated test application for
+validating the gas spring used in an IKA rotary evaporator. The purpose of the fixture was to ensure
+that each gas spring met required mechanical performance and safety specifications before being
+assembled into the rotary evaporator, which is used in laboratory distillation processes. The solution
+enabled consistent, repeatable, and reliable testing as part of the manufacturing quality assurance
+process.
+
+Key
+Contributions
+
+▪ Work closely with mechanical team in design and development of the fixture.
+▪ Selection and procurement of sensors and required hardware.
+▪ Requirement Analysis, Design and Implementation of software.
+▪ Installation and maintenance of the fixture in Production floor.
+
+
+
+Project @ SISL
+
+
+1. Name Automated System Testing of Vehicle Data Recorder (VDR) – Digital Tachograph
+Software LabVIEW 7.1, Teststand 3.0
+Hardware NI PXI 1031
+Description This project involved the development of an automated system testing framework for a Vehicle Data
+Recorder. The objective was to validate product functionality, ensure compliance with automotive
+standards, and improve test efficiency and accuracy. The solution enabled reliable automated testing,
+reduced manual effort, and improved overall product quality
+
+Key
+Contributions
+
+▪ Wrote test plans, test procedures to test and evaluate the functionality of the Products.
+▪ Developed a tool to acquire MMI image using a Webcam and to recognize the data using
+Neural Networks.
+▪ Developed a tool for Calibration and End of Line Tests (ISO 14230 compliance) of Digital
+Tachograph.
+▪ Developed a tool to interface power supply with the PC. (Konstanter power supply with GPIB
+Interface)
+
+2. Name Simulators for VDR Tachograph
+Tools Used LabVIEW 7.1
+Description This project involved the development of software-based simulators for external subsystems of a
+
+Vehicle Data Recorder (VDR) Digital Tachograph. The simulators were designed to emulate real-
+world inputs and outputs of connected subsystems under both normal and error conditions, using
+
+protocols supported by tachographs. These tools significantly aided in the design, development,
+calibration, and testing phases by enabling controlled, repeatable test scenarios without dependency
+on actual hardware.
+
+Key
+Contributions
+
+▪ Created detailed test plans and test procedures to evaluate tachograph functionality using
+simulated subsystem behavior.
+▪ Designed and developed a KITAS motion sensor simulator compliant with ISO 16844-3, enabling
+accurate simulation of vehicle motion signals and fault conditions.
+▪ Developed error-injection scenarios to validate system robustness and fault handling.
+▪ Supported development and testing teams by providing flexible and reusable simulation tools for
+validation and debugging.
+3. Name System Integration Testing –DTCO 1381
+Software Sequencer (C# Based Framework)
+Hardware NI-CAN-8473
+Description DTCO 1381 refers to a specific model of digital tachograph used in commercial vehicles to record
+driving and rest times and to ensure compliance with EU transport regulations. This project focused
+on System Integration Testing of the DTCO 1381 to verify correct interactions and data flow between
+integrated software and hardware modules. The objective was to ensure that individual components,
+once integrated, functioned together as per system requirements.
+
+Key
+Contributions
+
+▪ Analyzed system architecture and interaction diagrams to understand module dependencies and
+communication flows.
+▪ Designed, created, and executed system integration test sequences covering functional and
+interface-level scenarios.
+▪ Identified, documented, and tracked defects arising from module interactions.
+▪ Performed regression testing after bug fixes to ensure stability and prevent reintroduction of
+issues.
+▪ Reported test results and collaborated with development teams to resolve integration issues.
+
+
+
+Project @ NAL
+
+1. Name Electronic System Design and Development of Control System for Deployment of
+
+Control Surface Mousche for Naval Version of Light Combat Aircraft.
+
+Software LabVIEW 7.1, OrCAD, AutoCAD, C++
+Hardware NI USB 6009, DIO-96H
+Description The Mousche is identified as an additional aerodynamic control surface to be attached to the fore body
+of the naval version of LCA to improve the landing characteristics. The deployment is done using an
+array of Shape Memory Alloys and a geared mechanism. Shape Memory Alloy’s are smart materials
+that have the ability to return to a pre-defined shape when heated. Shape Memory Alloy produces large
+strains and generates large forces while recovering their pre-defined shape
+
+Key
+Contributions
+
+▪ Work closely with mechanical team in design and development of the fixture.
+▪ Selection and procurement of sensors and required hardware.
+▪ Requirement Analysis, Design and Implementation of software.
+▪ Installation and maintenance of the fixture in Production floor.
+
+2. Name Development of Temperature Control System for Composite Repair Kit.
+Software LabVIEW 7.1, MATLAB, C++
+Hardware NI USB 6009
+Description The composite repair process is completed in two steps bonding an annular ring and bonding a flush
+patch taking its support. The annular ring is bonded using the bi-functional property of the Shape
+Memory Alloy (SMA) based repair device to apply both heat and pressure. The flush patch is bonded
+by applying pressure and heat using tripod setup and blanket heater respectively. The temperature of
+the resin system (Araldite 501 A/B), which is used for bonding, has to be maintained (within the range
+of 70-120 deg C) during both the bonding processes hence two separate controllers are designed and
+developed individually. A PI controller has been developed to control the heat generated by the SMA
+repair device and on-off controller with cycle time algorithm has been developed to control the heat
+generated by the blanket heater. Simulation based analysis of the controllers has been done using
+MATLAB Simulink. The experimental results have shown a degree of convergence with simulation
+results.
+
+Key
+Contributions
+
+▪ Work closely with mechanical team in design and development of the fixture.
+▪ Selection and procurement of sensors and required hardware.
+▪ Requirement Analysis, Design and Implementation of software.
+▪ Installation and maintenance of the fixture in Production floor.
+
+3. Name Automation of Jigs for Thermo-Mechanical Testing of Shape Memory Alloys
+Software LabVIEW 7.1, C++
+Hardware NI PCI-6014
+Description This project deals with automation of mechanical test jigs for study of thermo-mechanical
+characteristics of thin shape memory alloys which are used in automobile applications. The
+Automated test jigs are used for accurate strain and load measurements of Thermo-Mechanical
+cycling. The strain is measured using a laser sensor and load is measured using s-type load cell. A DC
+motor is employed to automate the forward and reverse movement of the Test jig.
+
+Key
+Contributions
+
+▪ Work closely with mechanical team in design and development of the Test Jig.
+▪ Selection and procurement of sensors and required hardware.
+▪ Requirement Analysis, Design and Implementation of software.
+
+
+
+---
+CERTIFICATIONS
+---
+
+1. PCEP™ – Certified Entry-Level Python Programmer
+	- Issuing Organization: OpenEDG Python Institute
+	- Credential: PCEP-30-02
+	- Issued: Jan 2026
+
+2. AWS Certified Cloud Practitioner
+	- Issuing Organization: Amazon Web Services (AWS)
+	- Issued: Dec 2025
+	- Expires: Dec 2028
+
+3. iSAQB® Certified Professional for Software Architecture - Foundation Level
+	- Issuing Organization: iSAQB® – International Software Architecture Qualification Board
+	- Issued: Jul 2025
+	- Credential ID: https://badges.certible.com/certible/badge/473768e1-548b-4ac7-a22a-2d7abe0cb637
+
+4. Microsoft Certified: Azure Fundamentals
+	- Issuing Organization: Microsoft
+	- Issued: Apr 2025
+	- Credential ID: 527723AB2E3FE328
+
+5. LabVIEW Application Development
+	- Issuing Organization: NI (National Instruments)
+	- Issued: Apr 2024
+
+6. Microsoft Certified Solutions Associate: Universal Windows Platform (MCSA)
+	- Issuing Organization: Microsoft
+	- Issued: Dec 2019
+	- Credential ID: H290-5551
+
+7. Exam 70-357: Developing Mobile Apps
+	- Issuing Organization: Microsoft
+	- Issued: Nov 2019
+	- Credential ID: MCID:12682473
+
+8. Certified LabVIEW Associate Developer (CLAD)
+	- Issuing Organization: NI (National Instruments)
+	- Issued: May 2010
+	- Expired: May 2012
+	- Credential ID: 100-310-1407
+
+9. Exam 70-483: Programming in C#
+	- Issuing Organization: Microsoft
+	- Issued: May 2019
+	- Credential ID: MCID:12682473
+
+10. Microsoft Technology Associate: Software Development Fundamentals (MTA)
+	 - Issuing Organization: Microsoft
+	 - Issued: Nov 2018
+	 - Credential ID: G968-5076
+
+
+11. Certified Tester Foundation Level (CTFL)
+	 - Issuing Organization: ISTQB® - International Software Testing Qualifications Board
+	 - Issued: Mar 2014
+	 - Credential ID: ITB-CTFL-0061959
+
+12. Certified LabVIEW Developer (CLD)
+	 - Issuing Organization: NI (National Instruments)
+	 - Issued: Jun 2012
+	 - Expired: Jun 2015
+	 - Credential ID: 100-914-1363
+
+
+Accomplished System and Software Architect with a proven track record encompassing the full spectrum of product development life-cycle. This spans hardware and software development, system integration testing, as well as verification and validation , culminating in the product transition from research to mass production.
+
+📌Specializations:
+
+🛠 Architecture & Methodologies
+Agile software development, SysML/UML modeling, design patterns, test-driven development, configuration management, and CI/CD integration. Tools: Jenkins, Bitbucket, JIRA, Confluence.
+
+⚙️ Embedded Systems Development
+Proficient in C, C++/Qt, and embedded Linux, with deep expertise in RTOS (FreeRTOS, OSEK), low-level drivers, BSP development, and application-level design. Skilled in debugging, simulation, and performance optimization.
+
+🔌 Hardware Design & Integration
+Hands-on experience in circuit & PCB design using Altium Designer and Zuken. Strong track record in board bring-up, system integration, and hardware-software co-design.
+
+🧪 Test Systems & Automation
+Architect of functional test systems leveraging NI PXI, cDAQ, cRIO, LabVIEW, TestStand, Matlab App Designer, and C# (WPF, MVVM). Experienced in automation frameworks for verification, validation, and calibration.
+
+🔍 System Integration & Verification
+Expertise with HiL systems, CAN analyzers, oscilloscopes, power analyzers, dynamometers, and other advanced test/measurement tools to ensure compliance with stringent product and safety standards.
+
+👨‍💻 Leadership & Delivery
+Proven ability to lead cross-functional teams, mentor engineers, and align solutions with business objectives. Skilled in driving R&D concepts into reliable, mass-production-ready products.
+
+15+ YoE 
+COMPLETED 10+ professional licensed certification 
+
+2 publications 
+
+
+WORK EXPERIENCE : 
+
+
+Valeo Deutschland
+Valeo Deutschland
+Full-time · 4 yrs 11 mosFull-time · 4 yrs 11 mos
+Erlangen, Bavaria, Germany · HybridErlangen, Bavaria, Germany · Hybrid
+System Integration & Application Tools Developer | R&D Powertrain Electrified Mobility 
+System Integration & Application Tools Developer | R&D Powertrain Electrified Mobility 
+Apr 2021 - Present · 4 yrs 11 mosApr 2021 to Present · 4 yrs 11 mos
+🔸 Designed and developed a comprehensive toolchain for automating system integration and application testing of High Voltage (HV) systems in Electric Vehicles.
+
+🔸 Designed and implemented automation tools using Vector CANoe and Python to control test benches and manage data acquisition processes.
+
+🔸 Built MATLAB-based tools for generating efficiency maps from measurement data, performing efficiency calculations, and automating report generation.
+
+🔸Developed automated calibration tools for flashing validated parameter sets to automotive EV systems at the End-of-Line (EOL) stage, ensuring accurate system behavior, compliance with safety standards, and production traceability.
+
+🔸 Engineered big data solutions to perform advanced analysis on vehicle and bench test data, leveraging High Performance Computing (HPC) clusters for scalable and efficient processing.🔸 Designed and developed a comprehensive toolchain for automating system integration and application testing of High Voltage (HV) systems in Electric Vehicles. 🔸 Designed and implemented automation tools using Vector CANoe and Python to control test benches and manage data acquisition processes. 🔸 Built MATLAB-based tools for generating efficiency maps from measurement data, performing efficiency calculations, and automating report generation. 🔸Developed automated calibration tools for flashing validated parameter sets to automotive EV systems at the End-of-Line (EOL) stage, ensuring accurate system behavior, compliance with safety standards, and production traceability. 🔸 Engineered big data solutions to perform advanced analysis on vehicle and bench test data, leveraging High Performance Computing (HPC) clusters for scalable and efficient processing.
+MATLAB, High Performance Computing (HPC) and +9 skills
+Calibration Data Manager | R&D Powertrain Electrified Mobility
+Calibration Data Manager | R&D Powertrain Electrified Mobility
+Apr 2021 - Present · 4 yrs 11 mosApr 2021 to Present · 4 yrs 11 mos
+🔸Manage the complete calibration data workflow for Electric Vehicle (EV) systems using AVL Creta, supporting multiple platforms and projects.
+
+🔸 Developed C# based automation tools to streamline calibration data workflows, implemented rule-based validation to ensure parameters complied with format rules—reducing manual effort by 70% and significantly minimizing human errors.
+
+🔸Deliver validated calibration packages to internal teams such as system testing and validation.
+
+🔸Coordinate and deliver calibration datasets to external customers, aligned with project milestones and release cycles.
+
+-------------------------------
+
+Continental
+Continental
+Full-time · 4 yrs 6 mosFull-time · 4 yrs 6 mos
+On-siteOn-site
+Embedded Platform Architect
+Embedded Platform Architect
+May 2020 - Mar 2021 · 11 mosMay 2020 to Mar 2021 · 11 mos
+Bengaluru, Karnataka, IndienBengaluru, Karnataka, Indien
+Worked as part of a SAFe Agile team on the end-to-end development of a Digital Tachograph system, a safety-critical automotive product used for recording driving data in commercial vehicles.
+
+R͟e͟s͟p͟o͟n͟s͟i͟b͟l͟i͟t͟i͟e͟s
+ 🔸System Concept & Prototyping: Contributed to the Tachograph platform concept phase including sensor evaluation, hardware architecture definition, feasibility studies, and prototype development.
+
+ 🔸Development Environment & Quality Compliance: Set up the embedded software development environment including automated build scripts, integration of PC-Lint for MISRA-C compliance, and configuration of flashing and debugging tools to ensure high code quality and streamlined development workflows.
+
+🔸Technical Lead: Led a team of engineers responsible for bootloader and low-level driver development for CAN, SPI, I2C, and NFC; defined software architecture, task scheduling strategy, development guidelines, and oversaw design, modeling, implementation, testing, debugging, and code reviews.
+
+🔸Secure Bootloader & Platform Bring-Up: Architected and implemented a secure bootloader with firmware validation and fail-safe update mechanisms; managed flash drivers, startup sequence, interrupt configuration, and deterministic task scheduling for reliable firmware execution.Worked as part of a SAFe Agile team on the end-to-end development of a Digital Tachograph system, a safety-critical automotive product used for recording driving data in commercial vehicles. R͟e͟s͟p͟o͟n͟s͟i͟b͟l͟i͟t͟i͟e͟s 🔸System Concept & Prototyping: Contributed to the Tachograph platform concept phase including sensor evaluation, hardware architecture definition, feasibility studies, and prototype development. 🔸Development Environment & Quality Compliance: Set up the embedded software development environment including automated build scripts, integration of PC-Lint for MISRA-C compliance, and configuration of flashing and debugging tools to ensure high code quality and streamlined development workflows. 🔸Technical Lead: Led a team of engineers responsible for bootloader and low-level driver development for CAN, SPI, I2C, and NFC; defined software architecture, task scheduling strategy, development guidelines, and oversaw design, modeling, implementation, testing, debugging, and code reviews. 🔸Secure Bootloader & Platform Bring-Up: Architected and implemented a secure bootloader with firmware validation and fail-safe update mechanisms; managed flash drivers, startup sequence, interrupt configuration, and deterministic task scheduling for reliable firmware execution.
+IBM Rational Rhapsody, Software Architecture and +6 skills
+Embedded Software Developer
+Embedded Software Developer
+Jan 2020 - Apr 2020 · 4 mosJan 2020 to Apr 2020 · 4 mos
+United KingdomUnited Kingdom
+Worked as part of a global Agile software development team, contributing to Remote Vehicle Diagnostics solutions based on OBD-II (On-Board Diagnostics) standards.
+
+R͟e͟s͟p͟o͟n͟s͟i͟b͟l͟i͟t͟i͟e͟s
+🔸Requirements Analysis & Estimation: Analyzed product requirements and change requests, performed impact analysis, and provided accurate effort estimations to support sprint planning and release management.
+
+🔸System Optimization & Design Improvements: Proposed optimizations and architectural enhancements to improve system performance, scalability, maintainability, and overall software quality.Worked as part of a global Agile software development team, contributing to Remote Vehicle Diagnostics solutions based on OBD-II (On-Board Diagnostics) standards. R͟e͟s͟p͟o͟n͟s͟i͟b͟l͟i͟t͟i͟e͟s 🔸Requirements Analysis & Estimation: Analyzed product requirements and change requests, performed impact analysis, and provided accurate effort estimations to support sprint planning and release management. 🔸System Optimization & Design Improvements: Proposed optimizations and architectural enhancements to improve system performance, scalability, maintainability, and overall software quality.
+On-board Diagnostics, Hardware Analysis and +5 skills
+Software Architect
+Software Architect
+Oct 2016 - Dec 2019 · 3 yrs 3 mosOct 2016 to Dec 2019 · 3 yrs 3 mos
+Bengaluru, Karnataka, IndienBengaluru, Karnataka, Indien
+🔸Project Acquisition: Visited UK for three months to collaborate with Continental’s UK team and successfully secured key projects focused on transforming OEM proprietary vehicle diagnostic data into a custom format compatible with Continental’s multi-brand diagnostics platform.
+
+🔸Team Lead: Established and led a new development team in Bangalore;trained engineers, defined development processes.
+
+🔸MDI Plugin Architecture & Development: Led the design and development of scalable C#-based plugins for the MDI framework, enabling structured conversion, validation, and integration of OEM-specific diagnostic data into Continental’s platform.
+
+🔸Software Integration: Successfully delivered and integrated vehicle-specific diagnostic data for major OEMs including GMNA (Buick, Cadillac, Chevrolet), Honda, and Mercedes-Benz. 
+
+🔸Field Support: Actively supported in-vehicle testing phases and led Change Control Board (CCB) sessions to analyze field issues, implement corrective actions, and enhance diagnostic data accuracy and reliability.
+
+
+-------------------------------
+
+Industrial Engineer
+Industrial Engineer
+IKA – Laboratory, Analytical and Processing Technology · Full-timeIKA – Laboratory, Analytical and Processing Technology · Full-time
+May 2011 - Oct 2016 · 5 yrs 6 mosMay 2011 to Oct 2016 · 5 yrs 6 mos
+Bengaluru, Karnataka, India · On-siteBengaluru, Karnataka, India · On-site
+Joined the Global Production Testing Equipment Team at IKA, beginning with a 3-week knowledge transfer visit to Germany to understand production line processes, test equipment, and automation practices across international teams.
+
+R͟e͟s͟p͟o͟n͟s͟i͟b͟l͟i͟t͟i͟e͟s
+🔸Contributed to the design and development of a Universal PCBA Test Fixture for batch testing across all IKA products in production lines.
+
+🔸Built the core test system using Ingun Manual Test Fixtures (MA 21xx series) integrated with National Instruments compact DAQ systems.
+
+🔸Designed and implemented interchangeable PCBA test adapters for individual products, enabling scalable and modular test processes.
+
+🔸Developed and maintained a LabVIEW-based automated test framework to streamline PCBA validation and diagnostics.
+
+🔸Performed diagnostics and root-cause analysis of defective PCBs/devices and reported issues to the development team to improve design robustness.
+
+🔸Built and Maintained End-of-Line (EOL) test fixtures for final product validation in production lines.
+
+A͟c͟h͟i͟e͟v͟e͟m͟e͟n͟t͟s
+🔸 Established a dedicated Lab facility in Bangalore for PCBA testing, analysis, and rework—supporting local production teams.
+
+🔸 Successfully deployed and maintained automated test systems at supplier sites and IKA production facilities worldwide.
+
+-----------
+
+
+Siemens
+Siemens
+Full-time · 3 yrs 3 mosFull-time · 3 yrs 3 mos
+On-siteOn-site
+System Integration Test Engineer
+System Integration Test Engineer
+Feb 2010 - May 2011 · 1 yr 4 mosFeb 2010 to May 2011 · 1 yr 4 mos
+Bangalore Urban, Karnataka, IndiaBangalore Urban, Karnataka, India
+🔸Coordinate with global teams, including feature developers, software architects, and test specialists.
+
+🔸Build and configure test rigs, including hardware-in-loop and software-in-loop environments for closed-loop testing.
+
+🔸Develop and execute test specifications in line with automotive standards (e.g., ASPICE, ISO 26262), verifying encryption, data integrity, and regulatory compliance. 
+
+🔸Analyze results and deliver structured feedback to system, software, and hardware teams to identify and mediate architectural or functional gaps.🔸Coordinate with global teams, including feature developers, software architects, and test specialists. 🔸Build and configure test rigs, including hardware-in-loop and software-in-loop environments for closed-loop testing. 🔸Develop and execute test specifications in line with automotive standards (e.g., ASPICE, ISO 26262), verifying encryption, data integrity, and regulatory compliance. 🔸Analyze results and deliver structured feedback to system, software, and hardware teams to identify and mediate architectural or functional gaps.
+Embedded Software Developer
+Embedded Software Developer
+Apr 2009 - Feb 2010 · 11 mosApr 2009 to Feb 2010 · 11 mos
+Bengaluru, Karnataka, IndiaBengaluru, Karnataka, India
+R͟e͟s͟p͟o͟n͟s͟i͟b͟l͟i͟t͟i͟e͟s
+🔸Worked with International agile software development team and Integration test team.
+🔸Understand requirements, design and develop embedded software for automotive products.R͟e͟s͟p͟o͟n͟s͟i͟b͟l͟i͟t͟i͟e͟s 🔸Worked with International agile software development team and Integration test team. 🔸Understand requirements, design and develop embedded software for automotive products.
+Embedded Systems, Rational DOORS and +8 skills
+System Test Engineer
+System Test Engineer
+Mar 2008 - Apr 2009 · 1 yr 2 mosMar 2008 to Apr 2009 · 1 yr 2 mos
+Bengaluru, Karnataka, IndiaBengaluru, Karnataka, India
+R͟e͟s͟p͟o͟n͟s͟i͟b͟l͟i͟t͟i͟e͟s
+🔸Developed LabVIEW based tools and protocol level simulators to support the software development. 
+🔸Developed automated test equipment based on NI-PXI platform for Integration and system testing to verify & validate the product functionality.
+
+A͟c͟h͟i͟e͟v͟e͟m͟e͟n͟t͟s
+🔸Filed an Invention Disclosure regarding ”Image Acquisition and Image Recognition of Tachograph HMI using LabVIEW”
+
+------------------------
+
+CSIR - National Aerospace Laboratories (NAL)
+CSIR - National Aerospace Laboratories (NAL)
+2 yrs 3 mos2 yrs 3 mos
+Bengaluru, Karnataka, India · On-siteBengaluru, Karnataka, India · On-site
+Project Engineer
+Project Engineer
+ContractContract
+Jan 2007 - Mar 2008 · 1 yr 3 mosJan 2007 to Mar 2008 · 1 yr 3 mos
+R͟e͟s͟p͟o͟n͟s͟i͟b͟l͟i͟t͟i͟e͟s
+🔸Developed instrumentation and data acquisition & control setups for Lab Models of futuristic aerospace applications. 
+🔸Developed electronic systems for actuation and control of shape memory alloy based aerospace structures such as rudders and control surface.
+🔸Built automated test rigs to analyze and characterize the performance of shape memory alloys under various conditions.
+
+A͟c͟h͟i͟e͟v͟e͟m͟e͟n͟t͟s
+🔸Released internal research document regarding “Temperature Control System”R͟e͟s͟p͟o͟n͟s͟i͟b͟l͟i͟t͟i͟e͟s 🔸Developed instrumentation and data acquisition & control setups for Lab Models of futuristic aerospace applications. 🔸Developed electronic systems for actuation and control of shape memory alloy based aerospace structures such as rudders and control surface. 🔸Built automated test rigs to analyze and characterize the performance of shape memory alloys under various conditions. A͟c͟h͟i͟e͟v͟e͟m͟e͟n͟t͟s 🔸Released internal research document regarding “Temperature Control System”
+Communication Protocols and Embedded C
+Project Graduate Trainee
+Project Graduate Trainee
+InternshipInternship
+Jan 2006 - Jan 2007 · 1 yr 1 moJan 2006 to Jan 2007 · 1 yr 1 mo
+🔸Embedded C programming for C8051F020 Microcontroller using Silicon Labs IDE. 
+🔸Schematic Design for automated test rigs.
+🔸LabVIEW programming for Measurement and Control using Data Acquisition Systems (USB, PCI).
+
+----------------------------------------------------------------------------------
+
+EDUCATION 
+
+
+BITS Pilani Work Integrated Learning Programmes
+BITS Pilani Work Integrated Learning Programmes
+Master of Technology, Embedded SystemsMaster of Technology, Embedded Systems
+Aug 2020 - May 2022Aug 2020 - May 2022
+Skills: Embedded System Design · Mechatronics · Mechanism and Robotics · Real-Time Operating Systems (RTOS)
+
+
+-------------------------
+Anna University Chennai
+Anna University Chennai
+Bachelor's Degree, Electronics and Communications EngineeringBachelor's Degree, Electronics and Communications Engineering
+Apr 2001 - Aug 2005Apr 2001 - Aug 2005
+Grade: First ClassGrade: First Class
+Skills: C (Programming Language)
