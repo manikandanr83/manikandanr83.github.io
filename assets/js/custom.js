@@ -155,14 +155,33 @@
 	/* ----------------------------------------------------------- */
 	/*  6. PORTFOLIO GALLERY
 	/* ----------------------------------------------------------- */ 
-		$('.filtr-container').filterizr();
+		var $portfolioItems = $('.filtr-container .filtr-item');
 
-		//Simple filter controls
+		function applyPortfolioFilter(filterValue) {
+			$portfolioItems.each(function() {
+				var $item = $(this);
+				var categoryValue = String($item.data('category'));
+				var categories = categoryValue.split(',').map(function(v) { return v.trim(); });
+				var showItem = filterValue === 'all' || categories.indexOf(String(filterValue)) !== -1;
 
+				$item.toggleClass('filteredOut', !showItem);
+				if (showItem) {
+					$item.css({ display: 'block', 'pointer-events': 'auto' });
+				} else {
+					$item.css({ display: 'none', 'pointer-events': 'none' });
+				}
+			});
+		}
+
+		// Simple filter controls
 	    $('.mu-simplefilter li').click(function() {
+	    	var filterValue = $(this).data('filter');
 	        $('.mu-simplefilter li').removeClass('active');
 	        $(this).addClass('active');
+	        applyPortfolioFilter(filterValue);
 	    });
+
+		applyPortfolioFilter('all');
 
 	/* ----------------------------------------------------------- */
 	/*  7. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
