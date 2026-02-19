@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,6 +10,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico" />
 	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/bcb8acd2ad.js" crossorigin="anonymous"></script>
 	<!-- Bootstrap -->
@@ -24,6 +25,7 @@
 	<!-- Main Style -->
 	<link href="style.css" rel="stylesheet">
 
+	 <link rel="stylesheet" href="css/components/modal.css">
 	<!-- Fonts -->
 
 	<!-- Open Sans for body font -->
@@ -420,11 +422,18 @@
 															class="fa fa-github"></i></a>
 												</div>
 											</div>
+										 
+										
+											
+												<a href="https://drive.google.com/file/d/1_VOGMPTzHUv_xiHo3PbjnBwnAjFu9Nx8/preview" class="mu-resume-btn open-pdf-modal" data-modal-title="Resume Preview">Preview Resume <i class="fas fa-eye"></i></a>
 
-											<!-- Download Resume Button -->
-											<a href="https://drive.google.com/file/d/1_VOGMPTzHUv_xiHo3PbjnBwnAjFu9Nx8/view?usp=drive_link"
-												class="mu-resume-btn"
-												style="margin: 0; padding: 10px 22px; font-size: 14px;">Download CV</a>
+
+												<a href="https://drive.google.com/file/d/1_VOGMPTzHUv_xiHo3PbjnBwnAjFu9Nx8/view?usp=drive_link" class="mu-resume-btn" download>Download PDF <i class="fas fa-download"></i></a>
+											
+
+
+											
+										     
 										</div>
 									</div>
 									<!-- Right: Profile Image -->
@@ -3156,25 +3165,25 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<!-- Bootstrap -->
-	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<!-- Slick slider -->
-	<script type="text/javascript" src="assets/js/slick.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
 	<!-- Filterable Gallery js -->
-	<script type="text/javascript" src="assets/js/jquery.filterizr.min.js"></script>
+	<script type="text/javascript" src="js/jquery.filterizr.min.js"></script>
 	<!-- Gallery Lightbox -->
-	<script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 	<!-- Ajax contact form  -->
-	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 	<!-- Featured Slider -->
-	<script type="text/javascript" src="assets/js/typed.min.js"></script>
+	<script type="text/javascript" src="js/typed.min.js"></script>
 	<!-- On scroll JS  -->
-	<script src="assets/js/jquery.appear.js"></script>
+	<script src="js/jquery.appear.js"></script>
 	<!-- Progress Bar -->
-	<script type="text/javascript" src="assets/js/jquery.lineProgressbar.js"></script>
+	<script type="text/javascript" src="js/jquery.lineProgressbar.js"></script>
 
 
 	<!-- Custom js -->
-	<script type="text/javascript" src="assets/js/custom.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
 
 	<!-- Google Translate (hidden) + Custom Language Switcher -->
 	<script type="text/javascript">
@@ -3276,6 +3285,67 @@
 		});
 	</script>
 
+<div class="modal-overlay" id="pdfModalOverlay">
+    <div class="modal" id="pdfModal" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+        <div class="modal-header">
+            <h3 class="modal-title" id="modalTitle">Document Preview</h3>
+            <button class="modal-open-btn" aria-label="Open in new tab">
+              <i class="fas fa-external-link-alt"></i>
+            </button>
+            <button class="modal-close-btn" aria-label="Close modal">&times;</button>
+        </div>
+        <div class="modal-body">
+            <iframe src="" frameborder="0" title="Document Preview Content"></iframe>
+        </div>
+    </div>
+</div>
+
+<script>
+    // PDF Modal Functionality
+    const modalOverlay = document.getElementById('pdfModalOverlay');
+    const pdfModal = document.getElementById('pdfModal');
+    const modalCloseBtn = pdfModal ? pdfModal.querySelector('.modal-close-btn') : null;
+    const pdfIframe = pdfModal ? pdfModal.querySelector('.modal-body iframe') : null;
+    const modalTitleEl = pdfModal ? pdfModal.querySelector('.modal-title') : null;
+    const pdfLinks = document.querySelectorAll('a.open-pdf-modal');
+
+    if (modalOverlay && pdfModal && modalCloseBtn && pdfIframe) {
+        const openModal = (pdfUrl, title) => {
+            if (pdfUrl) {
+                pdfIframe.setAttribute('src', pdfUrl);
+                if (modalTitleEl) modalTitleEl.textContent = title || 'Document Preview';
+                modalOverlay.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        };
+
+        const closeModal = () => {
+            modalOverlay.classList.remove('active');
+            pdfIframe.setAttribute('src', '');
+            document.body.style.overflow = '';
+        };
+
+        pdfLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const pdfUrl = link.getAttribute('href');
+                const title = link.getAttribute('data-modal-title') || link.textContent.trim();
+                if (pdfUrl && pdfUrl !== '#') openModal(pdfUrl, title);
+            });
+        });
+
+        modalCloseBtn.addEventListener('click', closeModal);
+
+        modalOverlay.addEventListener('click', e => {
+            if (e.target === modalOverlay) closeModal();
+        });
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape' && modalOverlay.classList.contains('active'))
+                closeModal();
+        });
+    }
+</script>
 
 
 
